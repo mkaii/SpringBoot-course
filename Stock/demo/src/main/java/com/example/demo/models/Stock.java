@@ -26,6 +26,7 @@ public class Stock {
 
     private Double stockPrice;
 
+    @OneToOne
     private Integer stockOwnerCount;
 
     @Enumerated(EnumType.STRING)//only for watching strings in DB.
